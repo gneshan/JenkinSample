@@ -35,7 +35,7 @@ public class SimpleExecutableJarOpenGoogle {
 			}
 		}
 		String title=driver.getTitle();
-		System.out.println(title);
+		//System.out.println(title);
 		SoftAssert sAssert = new SoftAssert();
 		sAssert.assertEquals(title, "enlightenment now - Google Search");
 		driver.quit();
